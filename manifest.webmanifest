@@ -8,5 +8,5 @@
     "description": "Staff and sales tablet access tool",
     "lang": "en-US",
     "scope": "/",
-    "start_url": "index.html?launcher=true"
+    "start_url": "grid.html"
 }
