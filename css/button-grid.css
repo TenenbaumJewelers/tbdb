@@ -47,5 +47,5 @@
   animation-delay: calc(3 * var(--stagger-delay));
 }
 .card:nth-child(4) {
-  animation-delay: calc(4 * var(--stagger-delay));
+  animation-delay: calc(1 * var(--stagger-delay));
 }
