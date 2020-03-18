@@ -28,9 +28,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    animation: cardEntrance 300ms ease-out;
-    animation-fill-mode: backwards;
  }
   
 .card:hover {
