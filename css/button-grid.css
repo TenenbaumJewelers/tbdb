@@ -31,7 +31,6 @@
 }
 
 .card {
-
   animation: cardEntrance 300ms ease-out;
   animation-fill-mode: backwards;
 }
