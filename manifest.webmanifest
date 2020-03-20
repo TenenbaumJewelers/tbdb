@@ -1,0 +1,12 @@
+{
+    "background_color": "#00053C",
+    "display": "standalone",
+    "orientation":"portrait",
+    "theme_color": "#00053C",
+    "short_name": "TBDB",
+    "name": "Tenenbaum Database Prototype",
+    "description": "Staff and sales tablet access tool",
+    "lang": "en-US",
+    "scope": "/",
+    "start_url": "grid.html"
+}

@@ -12,16 +12,38 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
 
-    <meta name="apple-mobile-web-app-title" content="TBDB App">
+    <meta name="apple-mobile-web-app-title" content="Grid App">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--<link rel="manifest" href="/manifest.json">-->
-    <title>Me Again</title>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <title>Photo Grid</title>
+
+    <style>
+      @import url('/css/base.css');
+      @import url('/css/photo-grid.css');
+    </style>
   </head>
   <body>
-      Hello One More Time!!
+    <div class="photo-grid">
+      <a href="/pdf/ring-sizing.pdf">
+      <div
+        class="card"
+        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
+      >
+        direct
+      </div>
+      </a>
+      <a href="ob.html">
+      <div
+        class="card"
+        style="background-image:url('https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
+      >
+        Object
+      </div>
+      </a>
+    </div>
   </body>
 </html>
